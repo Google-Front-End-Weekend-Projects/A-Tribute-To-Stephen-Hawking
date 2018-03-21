@@ -1,0 +1,49 @@
+body {
+
+}
+
+.navbar-brand {
+	font-family: 'Pacifico', 'cursive';
+}
+.banner {
+	text-align: center; 
+	position: relative;
+}
+
+video{
+	width: 100%;
+	right: 0; 
+	left: 0; 
+	z-index: -100; 
+	position: relative; 
+	display: block;
+}
+
+div.centered {
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%);
+}
+
+h1.mid-poster {
+	color: antiquewhite; 
+	font-family: 'Lobster', 'Anton', 
+	sans-serif;
+	font-size: 90px;
+}
+.section-1 {
+	margin-top: 15px;
+}
+.title {
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-family: 'Limelight', 'cursive';
+}
+.section-content p {
+	display: block;
+	padding: 10px 15px 0px 15px;
+	text-align: justify;
+	font-weight: bold;
+}
