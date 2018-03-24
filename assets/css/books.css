@@ -1,0 +1,42 @@
+body{
+  background-image: url('../images/back.png');
+}
+h1{
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+}
+#books{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#intro{
+  text-align: center;
+}
+.book{
+  width:30%;
+  margin:10px;
+  text-align: center;
+  border : 2px solid grey;
+  -webkit-box-shadow: 9px 11px 29px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 11px 29px -9px rgba(0,0,0,0.75);
+box-shadow: 9px 11px 29px -9px rgba(0,0,0,0.75);
+border-radius: 10px;
+}
+.book p{
+  text-align: justify;
+  padding:5px;
+}
+.book h2{
+  font-family: 'IBM Plex Serif', serif;
+}
+img{
+width: 200px;
+justify-content: center;
+}
+p{
+font-size: 18px;
+}
