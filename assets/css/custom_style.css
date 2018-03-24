@@ -101,3 +101,11 @@ footer{
     border-radius: 7%;
 }
 
+.main-image{
+	width: 150px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 2em;
+  margin-bottom: 0.5em;
+  shape-outside: circle();
+}
