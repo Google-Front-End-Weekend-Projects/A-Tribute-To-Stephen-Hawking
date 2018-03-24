@@ -1,16 +1,25 @@
 body {
-
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+.navbar {
+	top: 0;
+	opacity: 100%;
+	transition: all 0.4s ease-in-out;
+}
 .navbar-brand {
 	font-family: 'Pacifico', 'cursive';
+}
+.hide-nav {
+	top: -54px;
+	opacity: 0;
 }
 .banner {
 	text-align: center; 
 	position: relative;
 }
 
-video{
+video {
 	width: 100%;
 	right: 0; 
 	left: 0; 
@@ -46,4 +55,5 @@ h1.mid-poster {
 	padding: 10px 15px 0px 15px;
 	text-align: justify;
 	font-weight: bold;
+	letter-spacing: 0.05em;
 }
