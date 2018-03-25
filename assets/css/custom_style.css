@@ -7,9 +7,14 @@ body {
 	opacity: 100%;
 	-webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
+	padding: 0.2rem 1rem !important;
 }
 .navbar-brand {
 	font-family: 'Pacifico', 'cursive';
+	font-size: 1.3rem;
+}
+a.nav-link {
+	font-size: 20px;
 }
 .hide-nav {
 	top: -54px;
@@ -33,6 +38,7 @@ div.centered {
 	position: absolute; 
 	top: 50%; 
 	left: 50%; 
+	margin-top: 20px;
 	-webkit-transform: translate(-50%, -50%); 
 	        transform: translate(-50%, -50%);
 }
@@ -115,4 +121,14 @@ footer {
   margin-right: 2em;
   margin-bottom: 0.5em;
   shape-outside: circle();
+}
+
+
+@media screen and (max-width: 560px) {
+
+h1.mid-poster {
+
+	font-size: 50px;
+}
+
 }
