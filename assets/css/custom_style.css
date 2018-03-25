@@ -14,29 +14,29 @@ body {
 	transition: all 0.4s ease-in-out;
 	padding: 0.2rem 1rem !important;
 }
+
 .navbar-brand {
 	font-family: 'Pacifico', 'cursive';
 	font-size: 1.3rem;
 }
+
 a.nav-link {
 	font-size: 20px;
 }
+
 .hide-nav {
 	top: -54px;
 	opacity: 0;
 }
+
 .banner {
 	text-align: center; 
 	position: relative;
 }
 
-video {
+#bg {
 	width: 100%;
-	right: 0; 
-	left: 0; 
-	z-index: -100; 
-	position: relative; 
-	display: block;
+	height: 100%;
 }
 
 div.centered {
@@ -54,12 +54,14 @@ h1.mid-poster {
 	sans-serif;
 	font-size: 90px;
 }
+
 .section-1 {
     margin: 15px 10px 5px 10px;
     padding: 10px;
     border: 3px solid white;
     border-radius: 10px;
 }
+
 .title {
 	display: block;
 	margin: auto;
@@ -67,6 +69,7 @@ h1.mid-poster {
 	font-family: 'Limelight', 'cursive';
     color: white;
 }
+
 .section-content p {
 	display: block;
 	padding: 10px 15px 0px 15px;
@@ -76,6 +79,7 @@ h1.mid-poster {
     color: white;
     font-size: 1.3em;
 }
+
 div.box {
     text-align: center;
     background: linear-gradient(to bottom right, #669999 0%, #ffffff 100%);
@@ -95,6 +99,7 @@ div.box {
     transform: scale(1);   
 
 }
+
 div.box:hover {
 /*    box-shadow: 0px 0px 150px #000000;*/
     z-index: 2;
@@ -117,6 +122,7 @@ div.box label p,
     line-height: 20px;
     font-size: 18px;
 }
+
 div.boxicon {
     width: 100%;
 }
@@ -126,15 +132,18 @@ div.boxicon {
     color: black;
     padding-top: 7px;
 }
+
 .card-footer{
     margin-top: 5px;
 }
+
 footer {
 	background-color: rgba(0,0,0,.9);
 	text-align: center;
 	padding: 15px;
     
 }
+
 .social a {
     position: relative;
     display: inline-block;
@@ -167,6 +176,7 @@ footer {
     border: 3px solid white;
     border-radius: 7%;
 }
+
 .social a:hover:before {
 	-webkit-transform: scale(1.5);
 	transform: scale(1.5);
