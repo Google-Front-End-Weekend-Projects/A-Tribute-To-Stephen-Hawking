@@ -1,5 +1,10 @@
 body {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-image: url("../images/milky-way-2695569_1920.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .navbar {
@@ -50,22 +55,80 @@ h1.mid-poster {
 	font-size: 90px;
 }
 .section-1 {
-	margin-top: 15px;
+    margin: 15px 10px 5px 10px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
 }
 .title {
 	display: block;
 	margin: auto;
 	text-align: center;
 	font-family: 'Limelight', 'cursive';
+    color: white;
 }
 .section-content p {
 	display: block;
 	padding: 10px 15px 0px 15px;
 	text-align: justify;
-	font-weight: bold;
-	letter-spacing: 0.05em;
+	font-weight: bolder;
+	letter-spacing: 0.08em;
+    color: white;
+    font-size: 1.3em;
+}
+div.box {
+    text-align: center;
+    background: linear-gradient(to bottom right, #669999 0%, #ffffff 100%);
+    border-radius: 7px;
+    margin: 24px;
+    padding: 36px 24px 40px 24px;
+    box-shadow: 7px 7px 21px -1px rgba(0,0,0,0.75);
+    
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+
+}
+div.box:hover {
+/*    box-shadow: 0px 0px 150px #000000;*/
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.05);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.05);
+    transition: all 200ms ease-in;
+    transform: scale(1.05);
 }
 
+div.box label p,
+.box p {
+    text-align: justify;
+    color: black;
+/*    font-family: cursive;*/
+    font-family: 'Carrois Gothic SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 20px;
+    font-size: 18px;
+}
+div.boxicon {
+    width: 100%;
+}
+
+.card-title {
+    font-family: 'Shrikhand', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',-apple-system, BlinkMacSystemFont, sans-serif;
+    color: black;
+    padding-top: 7px;
+}
+.card-footer{
+    margin-top: 5px;
+}
 footer {
 	background-color: rgba(0,0,0,.9);
 	text-align: center;
@@ -119,16 +182,20 @@ footer {
   border-radius: 50%;
   float: left;
   margin-right: 2em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
   shape-outside: circle();
 }
 
 
 @media screen and (max-width: 560px) {
 
-h1.mid-poster {
+    h1.mid-poster {
 
-	font-size: 50px;
-}
+	    font-size: 50px;
+    }
+    div.box {
+        margin: 20px 0px 20px 0px;
+        
+    }
 
 }
