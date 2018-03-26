@@ -331,9 +331,11 @@ footer {
     left: 15px;
   }
   
-  /* Make all right containers behave like the left ones */
-  .right {
+  /* Make all left containers behave like the right ones */
+  .right,
+  .left {
     left: 0%;
   }
+    
 }
 
