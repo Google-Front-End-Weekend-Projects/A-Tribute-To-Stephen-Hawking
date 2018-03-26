@@ -31,6 +31,8 @@ a.navbar-brand{
     text-align: center;
     margin-top: 20px;
     font-weight: bold;
+    font-size: 1.4rem;
+    word-spacing: 0.2rem;
 }
 
 .book {
