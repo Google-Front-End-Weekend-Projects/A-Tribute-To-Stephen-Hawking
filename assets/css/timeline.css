@@ -1,0 +1,29 @@
+.a{
+  text-align: center;
+   margin-top: 20px;
+}
+
+.aligning{
+  width: 1000px;
+    margin: 0 auto 0 auto;
+    display: inline-block;
+}
+body{
+  background-color: #E8A87C;
+}
+.dates{
+    -webkit-box-shadow: 0 20px 6px -6px #777;
+       -moz-box-shadow: 0 20px 6px -6px #777;
+            box-shadow: 0 20px 6px -6px #777;
+              background-color:#E27D60;
+              margin-top:40px;
+              width:16%;
+              text-align: center;
+
+}
+
+.desc{
+  background-color:#41B3A3;
+  height:80px;
+
+}
