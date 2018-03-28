@@ -4,7 +4,19 @@ let lastScrollPosition = 0;
 let delta = 5;
 let nav = $('.navbar');
 let navHeight = nav.outerHeight();
-
+// Select the navbar item list div
+const drawer = $('.collapse');
+/**
+*@Event_Listener: It collapses the menu item on click of
+*                   anywhere outside menu area.
+*/
+$(window).on('click', function(e) {
+if (drawer.hasClass("show")){
+    drawer.removeClass('show');
+    $('.navbar-toggler').addClass('collapsed');
+    e.stopPropagation();
+}
+});
 // TODO: Set didScroll to true when user scrolls
 $(window).scroll(function(e) {
     didScroll = true;
@@ -38,5 +50,5 @@ function hasScrolled() {
         }
     }
     lastScrollPosition = currentScroll;
-    
+
 }
